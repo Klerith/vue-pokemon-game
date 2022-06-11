@@ -16,7 +16,7 @@ describe("PokemonOptions Component", () => {
   });
 
   test('debe de hacer match con el snapshot', () => {    // toMatchInlineSnapshot
-    console.log(wrapper.html())
+    // console.log(wrapper.html())
     expect(wrapper.html()).toMatchSnapshot();
   });
 
