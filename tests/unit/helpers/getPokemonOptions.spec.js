@@ -16,7 +16,6 @@ describe('getPokemonOptions helpers', () => {
     test('debe de retornar un arreglo de 4 elementos con nombres de pokemons', async() => {
         
         const pokemons = await getPokemonNames([1,2,3,4])
-
         expect( pokemons ).toStrictEqual([
             { name: 'bulbasaur', id: 1 },
             { name: 'ivysaur', id: 2 },
